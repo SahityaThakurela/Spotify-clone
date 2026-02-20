@@ -1,0 +1,12 @@
+.border-cover {
+    display: flex;            
+    justify-content: center;   
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.188);
+    border-radius: 5px;
+    height: 30px;
+    width: 75px;
+    white-space: nowrap; 
+    flex-shrink: 0; 
+    font-size: 14px;
+}

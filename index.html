@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispotify :)</title>
+    <link rel="stylesheet" href="border.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+</style>
+
+<body>
+    <!-- ye h navbar -->
+    <div class="container">
+        <div class="nav-left">
+            <img src="logo.svg" alt="">
+        </div>
+        <div class="nav-middle">
+            <div class="home"> <img src="home.svg" alt=""></div>
+            <div class="searchbar">
+                <div class="part1">
+                    <div class="searchimg"><img src="search.svg" alt=""></div>
+                    <span class="searchtext">What do you want to play?</span>
+                </div>
+                <div class="part2">
+                    <div class="linesep"><img src="line.svg" alt=""></div>
+                    <div class="folder"><img src="folder-browse.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="notification"><img src="bell.svg"></div>
+            <div class="friends"><img src="friends.svg"></div>
+            <div class="profile"><img src="sahitya-image.png"></div>
+        </div>
+    </div>
+
+
+    <div class="bigbox flex">
+        <!-- left-fixed-box -->
+        <div class="leftbox">
+            <ul class="b1">
+                <!-- b1-tittle -->
+                <li>
+                    <div class="box1-title">
+                        <div class="text">Your Library</div>
+                        <div class="b1-title-r flex">
+                            <div class="btncreate border-cover"> + create</div>
+                            <div class="fullscreen"><img src="fullscreen.svg" alt=""></div>
+                        </div>
+                    </div>
+                </li>
+                <!-- b1-option -->
+                <li>
+                    <div class="box1-option flex">
+                        <div class="btnplaylist border-cover">Playlist</div>
+                        <div class="btnartist border-cover">Artists</div>
+                        <div class="btnalbumb border-cover">Albumb</div>
+                        <div class="btnpodcast border-cover">Podcast</div>
+                        <div class="btnpodcast border-cover">shoes</div>
+
+                    </div>
+                </li>
+                <!-- b1-window -->
+                <li>
+                    <div class="box1-window flex">
+                        <ul class="listview">
+                            <div class="songList">
+                                <ul>
+
+                                </ul>
+                            </div>
+                            <!-- <li class="flex playlists"><img src="likedimg.png">
+                                <ul>
+                                    <li>Liked Songs</li>
+                                    <li class="b1-minitext"><img src="pin.svg" alt=""> Playlist • 95songs</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="Your episode.png">
+                                <ul>
+                                    <li>Your Episode</li>
+                                    <li class="b1-minitext"><img src="pin.svg" alt=""> Playlist • saved & download
+                                        Episodes</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="unwavering hand.png">
+                                <ul>
+                                    <li>The Unwavering Hands</li>
+                                    <li class="b1-minitext"> Albumb • Flawed Mangoes</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="lofi cafe.png">
+                                <ul>
+                                    <li>Lofi Cake</li>
+                                    <li class="b1-minitext"> Albumb • Spotify</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="1.jalebi.png">
+                                <ul>
+                                    <li>Jalebi</li>
+                                    <li class="b1-minitext">Tesher, Jason Derulo</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="2.friends.png">
+                                <ul>
+                                    <li>Friends</li>
+                                    <li class="b1-minitext">Marshmello, Anne-Marie</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="3.august.png">
+                                <ul>
+                                    <li>August Diary</li>
+                                    <li class="b1-minitext">Dharia</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="4.shape of you.png">
+                                <ul>
+                                    <li>Shape Of You</li>
+                                    <li class="b1-minitext">Ed Sheeran</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="5.seneioreta.png">
+                                <ul>
+                                    <li>Senorita</li>
+                                    <li class="b1-minitext">Shawn Mendes, Camila Cabello</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="6.believer.png">
+                                <ul>
+                                    <li>Believer</li>
+                                    <li class="b1-minitext">Imagine Dragons</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="7.stay.png">
+                                <ul>
+                                    <li>Stay</li>
+                                    <li class="b1-minitext">The Kind LAROI, Justin Bieber</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="8.love agian.png">
+                                <ul>
+                                    <li>Love Again</li>
+                                    <li class="b1-minitext">Dua Lipa</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="9.tokyo drift.png">
+                                <ul>
+                                    <li>Tokyo Drift</li>
+                                    <li class="b1-minitext">KVSH</li>
+                                </ul>
+                            </li>
+                            <li class="flex playlists"><img src="10.heart-sterio.jpeg">
+                                <ul>
+                                    <li>Stereo Hearts</li>
+                                    <li class="b1-minitext">Gym class Heroes, Adam Levine</li>
+                                </ul>
+                            </li> -->
+
+                        </ul>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+
+
+        <!-- middle-fixed-box -->
+        <div class="middlebox">
+            <ul class="b2">
+
+
+                <!-- top view of middle window -->
+                <li class="b2-top flex">
+                    <div class="btnall border-cover">All</div>
+                    <div class="btnmusic border-cover">Music</div>
+                    <div class="btnpodcast border-cover">Podcast</div>
+                </li>
+
+
+                <!-- middle box cover -->
+                <li class="flex  b2cover">
+                    <div class="cover flex"><img src="likedimg.png" alt="li">Liked Songs</div>
+                    <div class="loficake-cover cover flex"><img src="lofi cafe.png" alt="lc">Lofi Cake</div>
+                </li>
+                <li class="flex  b2cover">
+                    <div class="cover flex"><img src="10.heart-sterio.jpeg" alt="li">Heart heart-sterio</div>
+                    <div class="loficake-cover cover flex"><img src="1.jalebi.png" alt="lc">Jalebi</div>
+                </li>
+                <li class="flex  b2cover">
+                    <div class="cover flex"><img src="9.tokyo drift.png" alt="li">Tokyo Drift</div>
+                    <div class="loficake-cover cover flex"><img src="2.friends.png" alt="lc">Friends</div>
+                </li>
+                <li class="flex  b2cover">
+                    <div class="cover flex"><img src="7.stay.png" alt="li">Stay</div>
+                    <div class="loficake-cover cover flex"><img src="3.august.png" alt="lc">August Diary</div>
+                </li>
+
+
+                <!-- middle box cardview large -->
+                <li class="textusername flex">
+                <li class="flex p1">Made for you</li>
+                <li class="flex p2">Sahitya Thakurela</li>
+                </li>
+            </ul>
+        </div>
+
+        <!-- right-fixed-box -->
+        <div class="rightbox">
+            <video src="video.mov" muted autoplay loop></video>
+            <ul class="jugaad">
+                <li class="details flex"><img src="p1.png" alt=""></li><br>
+                <li class="details flex"><img src="p2.png" alt=""></li><br>
+                <li class="details flex"><img src="p3.png" alt=""></li><br>
+                <li class="details flex"><img src="p4.png" alt=""></li><br>
+            </ul>
+        </div>
+    </div>
+
+    <!-- bottom-fixed-box -->
+    <div class="bottombox flex">
+
+        <!-- bottom left -->
+        <!-- <div class="dashboard flex">
+            <img src="10.heart-sterio.jpeg" height="60px">
+            <ul class="dashboardul">
+                <li>Heart Stereo</li>
+                <li class="b1-minitext">Adam Levine</li>
+            </ul>
+            <img src="tick.svg" height="20px">
+        </div> -->
+        <div class="songinfo">
+            <div class="dashboard flex">
+                <img src="music.jpg" height="60px">
+                <ul class="dashboardul">
+                    <li>Heart Stereo</li>
+                    <li class="b1-minitext">Adam Levine</li>
+                </ul>
+                <img src="tick.svg" height="20px">
+            </div>
+        </div>
+        <div class="songtime">
+
+        </div>
+
+        <!-- music players -->
+        <div class="players flex">
+
+            <ul class="play">
+                <li class="flex navigation">
+                    <img id="shuffle" src="shuffle.svg" alt="">
+                    <img id="prev" src="prev play.svg" alt="">
+                    <img id="play" src="pause.svg" alt="">
+                    <img id="next" src="next play.svg" alt="">
+                    <img id="loop" src="loop.svg" alt="">
+                </li>
+
+                <li class="flex timeline">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="controls flex">
+            <div class="controls"><img src="mike.svg" alt=""></div>
+            <div class="controls"><img src="queue.svg" alt=""></div>
+            <div class="controls"><img src="volume.svg" alt=""></div>
+            <div class="controls"><img src="fullscreen2.svg" alt=""></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
